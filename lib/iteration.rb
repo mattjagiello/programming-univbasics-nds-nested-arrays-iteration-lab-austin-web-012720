@@ -33,6 +33,7 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
 
+<<<<<<< HEAD
   total = 0
   src.each do |element|
     if (element[0] % 2) && (element[1] % 2) == 0
@@ -40,4 +41,8 @@ def total_even_pairs(src)
     end
   end
   return total
+=======
+src.reduce(0) do |sum, num|
+end
+>>>>>>> 6fdc2ab1410b899708b07e6e3b9efdbf90f2be9b
 end
